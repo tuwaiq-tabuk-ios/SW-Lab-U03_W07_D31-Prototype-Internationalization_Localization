@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA0FD4E42741850000BAD01A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA0FD4E62741850000BAD01A /* Localizable.strings */; };
+		DAF9409D2740DEFC00752CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF9409C2740DEFC00752CAD /* AppDelegate.swift */; };
+		DAF9409F2740DEFC00752CAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF9409E2740DEFC00752CAD /* SceneDelegate.swift */; };
+		DAF940A12740DEFC00752CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF940A02740DEFC00752CAD /* ViewController.swift */; };
+		DAF940A42740DEFC00752CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF940A22740DEFC00752CAD /* Main.storyboard */; };
+		DAF940A62740DEFD00752CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF940A52740DEFD00752CAD /* Assets.xcassets */; };
+		DAF940A92740DEFD00752CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF940A72740DEFD00752CAD /* LaunchScreen.storyboard */; };
+		DAF940BC2740F36500752CAD /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF940BB2740F36500752CAD /* extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA0FD4E52741850000BAD01A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA0FD4EC2741A2E200BAD01A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA0FD4ED2741A2E600BAD01A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA0FD4EE2741A2E900BAD01A /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA0FD4EF2741A2EC00BAD01A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA0FD4F12741A2FB00BAD01A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DAF940992740DEFC00752CAD /* Prototype-Internationalization_Localization- “RASHA_AIAD”.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype-Internationalization_Localization- “RASHA_AIAD”.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF9409C2740DEFC00752CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAF9409E2740DEFC00752CAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DAF940A02740DEFC00752CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAF940A32740DEFC00752CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAF940A52740DEFD00752CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAF940A82740DEFD00752CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAF940AA2740DEFD00752CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF940B02740E35600752CAD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		DAF940B12740E35600752CAD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DAF940B22740E37D00752CAD /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Main.strings; sourceTree = "<group>"; };
+		DAF940B32740E37D00752CAD /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DAF940B42740E3D000752CAD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		DAF940B52740E3D000752CAD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DAF940BA2740F0E900752CAD /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		DAF940BB2740F36500752CAD /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF940962740DEFC00752CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAF940902740DEFC00752CAD = {
+			isa = PBXGroup;
+			children = (
+				DAF9409B2740DEFC00752CAD /* Prototype-Internationalization_Localization- “RASHA_AIAD” */,
+				DAF9409A2740DEFC00752CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF9409A2740DEFC00752CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF940992740DEFC00752CAD /* Prototype-Internationalization_Localization- “RASHA_AIAD”.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF9409B2740DEFC00752CAD /* Prototype-Internationalization_Localization- “RASHA_AIAD” */ = {
+			isa = PBXGroup;
+			children = (
+				DAF940BD2740F40400752CAD /* Extensions */,
+				DAF940B72740ED7700752CAD /* Translations */,
+				DAF940B62740E48500752CAD /* Views */,
+				DAF9409C2740DEFC00752CAD /* AppDelegate.swift */,
+				DAF9409E2740DEFC00752CAD /* SceneDelegate.swift */,
+				DAF940A02740DEFC00752CAD /* ViewController.swift */,
+				DAF940A52740DEFD00752CAD /* Assets.xcassets */,
+				DAF940A72740DEFD00752CAD /* LaunchScreen.storyboard */,
+				DAF940AA2740DEFD00752CAD /* Info.plist */,
+				DA0FD4E62741850000BAD01A /* Localizable.strings */,
+			);
+			path = "Prototype-Internationalization_Localization- “RASHA_AIAD”";
+			sourceTree = "<group>";
+		};
+		DAF940B62740E48500752CAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAF940A22740DEFC00752CAD /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DAF940B72740ED7700752CAD /* Translations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Translations;
+			sourceTree = "<group>";
+		};
+		DAF940BD2740F40400752CAD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DAF940BB2740F36500752CAD /* extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF940982740DEFC00752CAD /* Prototype-Internationalization_Localization- “RASHA_AIAD” */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF940AD2740DEFD00752CAD /* Build configuration list for PBXNativeTarget "Prototype-Internationalization_Localization- “RASHA_AIAD”" */;
+			buildPhases = (
+				DAF940952740DEFC00752CAD /* Sources */,
+				DAF940962740DEFC00752CAD /* Frameworks */,
+				DAF940972740DEFC00752CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prototype-Internationalization_Localization- “RASHA_AIAD”";
+			productName = "Prototype-Internationalization_Localization- “RASHA_AIAD”";
+			productReference = DAF940992740DEFC00752CAD /* Prototype-Internationalization_Localization- “RASHA_AIAD”.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF940912740DEFC00752CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DAF940982740DEFC00752CAD = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = DAF940942740DEFC00752CAD /* Build configuration list for PBXProject "Prototype-Internationalization_Localization- “RASHA_AIAD”" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				ca,
+				fr,
+				ar,
+			);
+			mainGroup = DAF940902740DEFC00752CAD;
+			productRefGroup = DAF9409A2740DEFC00752CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF940982740DEFC00752CAD /* Prototype-Internationalization_Localization- “RASHA_AIAD” */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF940972740DEFC00752CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF940A92740DEFD00752CAD /* LaunchScreen.storyboard in Resources */,
+				DA0FD4E42741850000BAD01A /* Localizable.strings in Resources */,
+				DAF940A62740DEFD00752CAD /* Assets.xcassets in Resources */,
+				DAF940A42740DEFC00752CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF940952740DEFC00752CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF940A12740DEFC00752CAD /* ViewController.swift in Sources */,
+				DAF9409D2740DEFC00752CAD /* AppDelegate.swift in Sources */,
+				DAF9409F2740DEFC00752CAD /* SceneDelegate.swift in Sources */,
+				DAF940BC2740F36500752CAD /* extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA0FD4E62741850000BAD01A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA0FD4E52741850000BAD01A /* en */,
+				DA0FD4EC2741A2E200BAD01A /* es */,
+				DA0FD4ED2741A2E600BAD01A /* fr */,
+				DA0FD4EE2741A2E900BAD01A /* ca */,
+				DA0FD4EF2741A2EC00BAD01A /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DAF940A22740DEFC00752CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF940A32740DEFC00752CAD /* Base */,
+				DAF940B02740E35600752CAD /* es */,
+				DAF940B22740E37D00752CAD /* ca */,
+				DAF940B42740E3D000752CAD /* fr */,
+				DAF940BA2740F0E900752CAD /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAF940A72740DEFD00752CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF940A82740DEFD00752CAD /* Base */,
+				DAF940B12740E35600752CAD /* es */,
+				DAF940B32740E37D00752CAD /* ca */,
+				DAF940B52740E3D000752CAD /* fr */,
+				DA0FD4F12741A2FB00BAD01A /* ar */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAF940AB2740DEFD00752CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAF940AC2740DEFD00752CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF940AE2740DEFD00752CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9F2D7U526;
+				INFOPLIST_FILE = "Prototype-Internationalization_Localization- “RASHA_AIAD”/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "s.Prototype-Internationalization-Localization---RASHA-AIAD-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAF940AF2740DEFD00752CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9F2D7U526;
+				INFOPLIST_FILE = "Prototype-Internationalization_Localization- “RASHA_AIAD”/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "s.Prototype-Internationalization-Localization---RASHA-AIAD-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF940942740DEFC00752CAD /* Build configuration list for PBXProject "Prototype-Internationalization_Localization- “RASHA_AIAD”" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF940AB2740DEFD00752CAD /* Debug */,
+				DAF940AC2740DEFD00752CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF940AD2740DEFD00752CAD /* Build configuration list for PBXNativeTarget "Prototype-Internationalization_Localization- “RASHA_AIAD”" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF940AE2740DEFD00752CAD /* Debug */,
+				DAF940AF2740DEFD00752CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAF940912740DEFC00752CAD /* Project object */;
+}
