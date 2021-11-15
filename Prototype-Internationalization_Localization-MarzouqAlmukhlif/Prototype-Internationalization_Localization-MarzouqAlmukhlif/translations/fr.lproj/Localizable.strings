@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Prototype-Internationalization_Localization-MarzouqAlmukhlif
+
+  Created by Marzouq Almukhlif on 09/04/1443 AH.
+  
+*/
+
+"Hello World!" = "Bonjour le monde!";
