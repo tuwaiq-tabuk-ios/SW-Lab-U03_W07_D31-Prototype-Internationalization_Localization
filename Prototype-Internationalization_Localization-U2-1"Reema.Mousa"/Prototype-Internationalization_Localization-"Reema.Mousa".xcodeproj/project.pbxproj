@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE201C552740DFB40063E1F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE201C542740DFB40063E1F5 /* AppDelegate.swift */; };
+		AE201C572740DFB40063E1F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE201C562740DFB40063E1F5 /* SceneDelegate.swift */; };
+		AE201C592740DFB40063E1F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE201C582740DFB40063E1F5 /* ViewController.swift */; };
+		AE201C5C2740DFB40063E1F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE201C5A2740DFB40063E1F5 /* Main.storyboard */; };
+		AE201C5E2740DFB50063E1F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE201C5D2740DFB50063E1F5 /* Assets.xcassets */; };
+		AE201C612740DFB50063E1F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE201C5F2740DFB50063E1F5 /* LaunchScreen.storyboard */; };
+		AEB3C8672740F02000300CF3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEB3C8692740F02000300CF3 /* Localizable.strings */; };
+		AEB3C86F2740F17600300CF3 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB3C86E2740F17600300CF3 /* String+Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE201C512740DFB40063E1F5 /* Prototype-Internationalization_Localization-"Reema.Mousa".app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype-Internationalization_Localization-\"Reema.Mousa\".app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE201C542740DFB40063E1F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE201C562740DFB40063E1F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE201C582740DFB40063E1F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE201C5B2740DFB40063E1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE201C5D2740DFB50063E1F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE201C602740DFB50063E1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE201C622740DFB50063E1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE201C682740E2D20063E1F5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		AE201C6A2740E34D0063E1F5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		AEB3C8682740F02000300CF3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AEB3C86B2740F09500300CF3 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		AEB3C86C2740F09C00300CF3 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AEB3C86E2740F17600300CF3 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		AEB3C8712740F30E00300CF3 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AEB3C8722740F30F00300CF3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AEB3C8732740F31000300CF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AEB3C8742740F4AE00300CF3 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Main.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE201C4E2740DFB40063E1F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE201C482740DFB40063E1F5 = {
+			isa = PBXGroup;
+			children = (
+				AE201C532740DFB40063E1F5 /* Prototype-Internationalization_Localization-"Reema.Mousa" */,
+				AE201C522740DFB40063E1F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE201C522740DFB40063E1F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE201C512740DFB40063E1F5 /* Prototype-Internationalization_Localization-"Reema.Mousa".app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE201C532740DFB40063E1F5 /* Prototype-Internationalization_Localization-"Reema.Mousa" */ = {
+			isa = PBXGroup;
+			children = (
+				AEB3C8702740F26B00300CF3 /* controller */,
+				AEB3C86D2740F14400300CF3 /* Extensions */,
+				AEB3C8632740EDC800300CF3 /* View */,
+				AE201C5D2740DFB50063E1F5 /* Assets.xcassets */,
+				AE201C5F2740DFB50063E1F5 /* LaunchScreen.storyboard */,
+				AE201C622740DFB50063E1F5 /* Info.plist */,
+			);
+			path = "Prototype-Internationalization_Localization-\"Reema.Mousa\"";
+			sourceTree = "<group>";
+		};
+		AEB3C8632740EDC800300CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE201C562740DFB40063E1F5 /* SceneDelegate.swift */,
+				AE201C542740DFB40063E1F5 /* AppDelegate.swift */,
+				AEB3C8642740EDEE00300CF3 /* translations */,
+				AE201C5A2740DFB40063E1F5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEB3C8642740EDEE00300CF3 /* translations */ = {
+			isa = PBXGroup;
+			children = (
+				AEB3C8692740F02000300CF3 /* Localizable.strings */,
+			);
+			path = translations;
+			sourceTree = "<group>";
+		};
+		AEB3C86D2740F14400300CF3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AEB3C86E2740F17600300CF3 /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AEB3C8702740F26B00300CF3 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE201C582740DFB40063E1F5 /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE201C502740DFB40063E1F5 /* Prototype-Internationalization_Localization-"Reema.Mousa" */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE201C652740DFB50063E1F5 /* Build configuration list for PBXNativeTarget "Prototype-Internationalization_Localization-"Reema.Mousa"" */;
+			buildPhases = (
+				AE201C4D2740DFB40063E1F5 /* Sources */,
+				AE201C4E2740DFB40063E1F5 /* Frameworks */,
+				AE201C4F2740DFB40063E1F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prototype-Internationalization_Localization-\"Reema.Mousa\"";
+			productName = "Prototype-Internationalization_Localization-\"Reema.Mousa\"";
+			productReference = AE201C512740DFB40063E1F5 /* Prototype-Internationalization_Localization-"Reema.Mousa".app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE201C492740DFB40063E1F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AE201C502740DFB40063E1F5 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = AE201C4C2740DFB40063E1F5 /* Build configuration list for PBXProject "Prototype-Internationalization_Localization-"Reema.Mousa"" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				ca,
+				fr,
+				ar,
+			);
+			mainGroup = AE201C482740DFB40063E1F5;
+			productRefGroup = AE201C522740DFB40063E1F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE201C502740DFB40063E1F5 /* Prototype-Internationalization_Localization-"Reema.Mousa" */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE201C4F2740DFB40063E1F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE201C612740DFB50063E1F5 /* LaunchScreen.storyboard in Resources */,
+				AEB3C8672740F02000300CF3 /* Localizable.strings in Resources */,
+				AE201C5E2740DFB50063E1F5 /* Assets.xcassets in Resources */,
+				AE201C5C2740DFB40063E1F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE201C4D2740DFB40063E1F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE201C592740DFB40063E1F5 /* ViewController.swift in Sources */,
+				AE201C552740DFB40063E1F5 /* AppDelegate.swift in Sources */,
+				AEB3C86F2740F17600300CF3 /* String+Ext.swift in Sources */,
+				AE201C572740DFB40063E1F5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE201C5A2740DFB40063E1F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE201C5B2740DFB40063E1F5 /* Base */,
+				AE201C682740E2D20063E1F5 /* es */,
+				AE201C6A2740E34D0063E1F5 /* fr */,
+				AEB3C86B2740F09500300CF3 /* ar */,
+				AEB3C8742740F4AE00300CF3 /* ca */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE201C5F2740DFB50063E1F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE201C602740DFB50063E1F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AEB3C8692740F02000300CF3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB3C8682740F02000300CF3 /* es */,
+				AEB3C86C2740F09C00300CF3 /* ar */,
+				AEB3C8712740F30E00300CF3 /* ca */,
+				AEB3C8722740F30F00300CF3 /* fr */,
+				AEB3C8732740F31000300CF3 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE201C632740DFB50063E1F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE201C642740DFB50063E1F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE201C662740DFB50063E1F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQQ2YBW9F8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Prototype-Internationalization_Localization-\"Reema.Mousa\"/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "reema.com.Prototype-Internationalization-Localization--Reema-Mousa-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE201C672740DFB50063E1F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQQ2YBW9F8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Prototype-Internationalization_Localization-\"Reema.Mousa\"/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "reema.com.Prototype-Internationalization-Localization--Reema-Mousa-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE201C4C2740DFB40063E1F5 /* Build configuration list for PBXProject "Prototype-Internationalization_Localization-"Reema.Mousa"" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE201C632740DFB50063E1F5 /* Debug */,
+				AE201C642740DFB50063E1F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE201C652740DFB50063E1F5 /* Build configuration list for PBXNativeTarget "Prototype-Internationalization_Localization-"Reema.Mousa"" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE201C662740DFB50063E1F5 /* Debug */,
+				AE201C672740DFB50063E1F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE201C492740DFB40063E1F5 /* Project object */;
+}
