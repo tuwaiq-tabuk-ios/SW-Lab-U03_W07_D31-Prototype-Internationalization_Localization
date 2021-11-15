@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		252DB7002740E03B00FF1C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252DB6FF2740E03B00FF1C40 /* AppDelegate.swift */; };
+		252DB7022740E03B00FF1C40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252DB7012740E03B00FF1C40 /* SceneDelegate.swift */; };
+		252DB7042740E03B00FF1C40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252DB7032740E03B00FF1C40 /* ViewController.swift */; };
+		252DB7072740E03B00FF1C40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252DB7052740E03B00FF1C40 /* Main.storyboard */; };
+		252DB7092740E03C00FF1C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252DB7082740E03C00FF1C40 /* Assets.xcassets */; };
+		252DB70C2740E03C00FF1C40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252DB70A2740E03C00FF1C40 /* LaunchScreen.storyboard */; };
+		252DB7282740F20F00FF1C40 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252DB7272740F20F00FF1C40 /* String+Ext.swift */; };
+		252DB72B2740FBC400FF1C40 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 252DB72D2740FBC400FF1C40 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		252DB6FC2740E03B00FF1C40 /* Prototype-Internationalization_Localization-"Abrar_Alqarni".app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype-Internationalization_Localization-\"Abrar_Alqarni\".app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		252DB6FF2740E03B00FF1C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		252DB7012740E03B00FF1C40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		252DB7032740E03B00FF1C40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		252DB7062740E03B00FF1C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		252DB7082740E03C00FF1C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		252DB70B2740E03C00FF1C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		252DB70D2740E03C00FF1C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252DB7152740E2E500FF1C40 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		252DB7252740F17D00FF1C40 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Main.strings; sourceTree = "<group>"; };
+		252DB7262740F18200FF1C40 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		252DB7272740F20F00FF1C40 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		252DB72A2740F5BA00FF1C40 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		252DB72C2740FBC400FF1C40 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		252DB72E2740FBC900FF1C40 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
+		252DB72F2740FBCD00FF1C40 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		252DB7302740FBD000FF1C40 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		252DB6F92740E03B00FF1C40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252DB6F32740E03B00FF1C40 = {
+			isa = PBXGroup;
+			children = (
+				252DB6FE2740E03B00FF1C40 /* Prototype-Internationalization_Localization-"Abrar_Alqarni" */,
+				252DB6FD2740E03B00FF1C40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		252DB6FD2740E03B00FF1C40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				252DB6FC2740E03B00FF1C40 /* Prototype-Internationalization_Localization-"Abrar_Alqarni".app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		252DB6FE2740E03B00FF1C40 /* Prototype-Internationalization_Localization-"Abrar_Alqarni" */ = {
+			isa = PBXGroup;
+			children = (
+				252DB7182740EE9200FF1C40 /* Translasion */,
+				252DB6FF2740E03B00FF1C40 /* AppDelegate.swift */,
+				252DB7012740E03B00FF1C40 /* SceneDelegate.swift */,
+				252DB7032740E03B00FF1C40 /* ViewController.swift */,
+				252DB7292740F21E00FF1C40 /* Extension */,
+				252DB7082740E03C00FF1C40 /* Assets.xcassets */,
+				252DB70A2740E03C00FF1C40 /* LaunchScreen.storyboard */,
+				252DB70D2740E03C00FF1C40 /* Info.plist */,
+			);
+			path = "Prototype-Internationalization_Localization-\"Abrar_Alqarni\"";
+			sourceTree = "<group>";
+		};
+		252DB7182740EE9200FF1C40 /* Translasion */ = {
+			isa = PBXGroup;
+			children = (
+				252DB72D2740FBC400FF1C40 /* Localizable.strings */,
+				252DB7052740E03B00FF1C40 /* Main.storyboard */,
+			);
+			path = Translasion;
+			sourceTree = "<group>";
+		};
+		252DB7292740F21E00FF1C40 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				252DB7272740F20F00FF1C40 /* String+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		252DB6FB2740E03B00FF1C40 /* Prototype-Internationalization_Localization-"Abrar_Alqarni" */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252DB7102740E03C00FF1C40 /* Build configuration list for PBXNativeTarget "Prototype-Internationalization_Localization-"Abrar_Alqarni"" */;
+			buildPhases = (
+				252DB6F82740E03B00FF1C40 /* Sources */,
+				252DB6F92740E03B00FF1C40 /* Frameworks */,
+				252DB6FA2740E03B00FF1C40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prototype-Internationalization_Localization-\"Abrar_Alqarni\"";
+			productName = "Prototype-Internationalization_Localization-\"Abrar_Alqarni\"";
+			productReference = 252DB6FC2740E03B00FF1C40 /* Prototype-Internationalization_Localization-"Abrar_Alqarni".app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		252DB6F42740E03B00FF1C40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					252DB6FB2740E03B00FF1C40 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 252DB6F72740E03B00FF1C40 /* Build configuration list for PBXProject "Prototype-Internationalization_Localization-"Abrar_Alqarni"" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				ca,
+				fr,
+				ar,
+			);
+			mainGroup = 252DB6F32740E03B00FF1C40;
+			productRefGroup = 252DB6FD2740E03B00FF1C40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				252DB6FB2740E03B00FF1C40 /* Prototype-Internationalization_Localization-"Abrar_Alqarni" */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		252DB6FA2740E03B00FF1C40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252DB70C2740E03C00FF1C40 /* LaunchScreen.storyboard in Resources */,
+				252DB72B2740FBC400FF1C40 /* Localizable.strings in Resources */,
+				252DB7092740E03C00FF1C40 /* Assets.xcassets in Resources */,
+				252DB7072740E03B00FF1C40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		252DB6F82740E03B00FF1C40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252DB7042740E03B00FF1C40 /* ViewController.swift in Sources */,
+				252DB7002740E03B00FF1C40 /* AppDelegate.swift in Sources */,
+				252DB7282740F20F00FF1C40 /* String+Ext.swift in Sources */,
+				252DB7022740E03B00FF1C40 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		252DB7052740E03B00FF1C40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252DB7062740E03B00FF1C40 /* Base */,
+				252DB7152740E2E500FF1C40 /* es */,
+				252DB7252740F17D00FF1C40 /* ca */,
+				252DB7262740F18200FF1C40 /* fr */,
+				252DB72A2740F5BA00FF1C40 /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		252DB70A2740E03C00FF1C40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252DB70B2740E03C00FF1C40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		252DB72D2740FBC400FF1C40 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252DB72C2740FBC400FF1C40 /* ar */,
+				252DB72E2740FBC900FF1C40 /* ca */,
+				252DB72F2740FBCD00FF1C40 /* fr */,
+				252DB7302740FBD000FF1C40 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		252DB70E2740E03C00FF1C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		252DB70F2740E03C00FF1C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		252DB7112740E03C00FF1C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FD876BG69;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Prototype-Internationalization_Localization-\"Abrar_Alqarni\"/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Abrar.Prototype-Internationalization-Localization--Abrar-Alqarni-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		252DB7122740E03C00FF1C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FD876BG69;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Prototype-Internationalization_Localization-\"Abrar_Alqarni\"/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Abrar.Prototype-Internationalization-Localization--Abrar-Alqarni-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		252DB6F72740E03B00FF1C40 /* Build configuration list for PBXProject "Prototype-Internationalization_Localization-"Abrar_Alqarni"" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252DB70E2740E03C00FF1C40 /* Debug */,
+				252DB70F2740E03C00FF1C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252DB7102740E03C00FF1C40 /* Build configuration list for PBXNativeTarget "Prototype-Internationalization_Localization-"Abrar_Alqarni"" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252DB7112740E03C00FF1C40 /* Debug */,
+				252DB7122740E03C00FF1C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 252DB6F42740E03B00FF1C40 /* Project object */;
+}
