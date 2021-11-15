@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  prototype-Navigation-Table-"MonaMisfer"
+//  Prototype-Internationalization-Localization-MonaMisfer
 //
 //  Created by mona M on 14/11/2021.
 //
