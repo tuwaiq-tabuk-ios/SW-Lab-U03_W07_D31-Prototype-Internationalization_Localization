@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Prototype-Internationalization_Localization-"Reema.Mousa"
+
+  Created by Reema Mousa on 09/04/1443 AH.
+  
+*/
+/* Class = "UILabel"; text = "Hello World"; ObjectID = "EtK-GA-ZON"; */
+"Hello World" = "Hola Mundo";
+
+
+
