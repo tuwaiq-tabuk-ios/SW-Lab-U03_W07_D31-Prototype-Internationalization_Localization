@@ -15,3 +15,4 @@ Prototype App that translates text and images from English (Base language) into 
 Monday 15 November 9:15 am
 
 
+![Simulator Screen Shot - iPhone 12 - 2021-11-15 at 09 00 19](https://user-images.githubusercontent.com/91871792/142380075-b91770a6-b056-4a98-bcae-723c1ae313a0.png)
